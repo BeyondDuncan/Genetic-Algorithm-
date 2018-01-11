@@ -1,0 +1,5 @@
+2	      the number of variable
+-10 10    the lower and upper bound of each variable£» the first row should input the max-difference bound
+-10 10 
+0.8           the probability of cross 0.4-0.99
+0.1           the probability of mutation 0.0001-0.1
