@@ -9,6 +9,7 @@ This program is to solve the problem of optimization by GA  <br/>
 + $main$: main routine of the program. To avoid caught in the local extrem value, catastrophe algorithm，fitness scaling method and partition method are used.
   At first, it calls subroutines $initial$ and $evaluate$ to generate the initial group. Then, in the circulation part, different choosing strategies are used. Next, it calls $cross$ and $mutation$ to generate new chromosome.  <br/>
 + $module$: 1. all the globle parameters in this program 2.  use $parameter_globle$ or $gene$ allows to use all the parameters. <br/>
+Attention: the number of partition can be changed by changing $part$, different problem and condition need diffenret partitions.
 + $source$: 1. some operations used in this program: sorting, maximum, minimum, random number. 2. the evaluate function $func$， some test func(s) are presented
 + $catastrophe$: simulate the phenomenon 'catastrophe' in the nature 
 + $choose1$: the traditional choosing method -- Roulette-wheel selection
