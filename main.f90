@@ -56,7 +56,7 @@ open(unit=10,file='information.txt')
             else
                 if(generation > 50 .and.(abs(newaverage - average) < dif .and. (newpopulation(nub+1)%fitness - post_maxfitness) < dif) ) then
                     call fitness_linear(population)
-                    call choose1(population,newpopulation)                    !! tournament selection
+                    call choose1(population,newpopulation)                    !! Roulette-wheel selection
                 else
                     call choose2(population,newpopulation)                    !! elitist proportionate selection
                 end if
