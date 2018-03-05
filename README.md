@@ -1,3 +1,4 @@
+If you find this solver useful, please cite it. You are also welcome to send an email letting us know what you are using it for; then we can include it here as an example. If you would like to add some of your systems as unit tests, just create additional data files with new case identifiers and submit a pull request. @ beyondduncan@foxmail.com
 # Genetic-Algorithm-
 This program is to solve the problem of optimization by GA  <br/>
 *Date: 10:17-Dec-8th-2017, by Moyu Deng at UESTC*  <br/>
