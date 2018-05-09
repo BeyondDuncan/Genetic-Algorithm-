@@ -21,7 +21,7 @@ subroutine choose2(pop,newpop)                                   !! elitist prop
                    newpop(k) = pop(i)
                end do 
         end do
-        do i =3*m, m,-1
+        do i =3*m, m+1,-1
             newpop(k) = pop(i)
         end do
      else
